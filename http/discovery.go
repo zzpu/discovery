@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bilibili/discovery/model"
+	"github.com/zzpu/discovery/model"
 
-	"github.com/bilibili/kratos/pkg/ecode"
-	log "github.com/bilibili/kratos/pkg/log"
-	bm "github.com/bilibili/kratos/pkg/net/http/blademaster"
+	"github.com/zzpu/kratos/pkg/ecode"
+	log "github.com/zzpu/kratos/pkg/log"
+	bm "github.com/zzpu/kratos/pkg/net/http/blademaster"
 )
 
 const (

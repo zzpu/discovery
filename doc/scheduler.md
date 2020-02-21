@@ -61,7 +61,7 @@
 则需要调度3/4的流量到sh001机房，1/4的流量到sh002 机房
 
 2. 根据机房获取机房应用实例，并由实例的weight进行节点负载的二次调度
-参考 [sdk 实现](https://github.com/bilibili/discovery/blob/master/naming/naming.go#L76)
+参考 [sdk 实现](https://github.com/zzpu/discovery/blob/master/naming/naming.go#L76)
 
  
 

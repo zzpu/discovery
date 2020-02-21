@@ -3,7 +3,7 @@
 
 ![discovery sdk self ](discovery_sdk_self.png)
 
-1. 调用 http://discovery.bilibili.co/discovery/polls 并指定appid参数为infra.discovery 接口获取discovery服务中心节点信息，获取到discovery的ip:port 节点列表。discovery 服务更新的时候会返回最新的discovery节点信息，sdk需要更新discovery节点信息
+1. 调用 http://discovery.zzpu.co/discovery/polls 并指定appid参数为infra.discovery 接口获取discovery服务中心节点信息，获取到discovery的ip:port 节点列表。discovery 服务更新的时候会返回最新的discovery节点信息，sdk需要更新discovery节点信息
 2. 将获得的nodes列表的顺序随机打乱后，获取一个随机的nodes节点列表选择第一个节点使用 http://ip:port /discovery/polls 拉取服务节点。poll(polls) 接口为长轮训接口。如果server节点实例没有变更，则接口会阻塞直到30s返回-304 。如果server节点发生变更，则接口立即返回并带上所有instances信息。如果调用失败或服务端返回非-304的code码，则选择列表中后一个节点并进行重试直到成功并记录下当前使用的节点index。(注意: polls接口需要使用①获取到的ip地址进行直连，因为poll为长轮训接口，如果通过域名访问会slb超时)
 3. 通过nodes[idx] 发起polls discovery的请求，实时监听discovery nodes节点变更。如果收到poll接口变更推送则进行④，否则进行⑤
 4. 收到节点变更推送，对比收到的节点列表与本地旧的列表是否一致 ，如果一致则回到③，否则回到②重新用新的列表打散获取新的nodes

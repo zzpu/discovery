@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	dc "github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/model"
-	"github.com/bilibili/kratos/pkg/ecode"
-	bm "github.com/bilibili/kratos/pkg/net/http/blademaster"
-	"github.com/bilibili/kratos/pkg/net/http/blademaster/binding"
-	xtime "github.com/bilibili/kratos/pkg/time"
+	dc "github.com/zzpu/discovery/conf"
+	"github.com/zzpu/discovery/model"
+	"github.com/zzpu/kratos/pkg/ecode"
+	bm "github.com/zzpu/kratos/pkg/net/http/blademaster"
+	"github.com/zzpu/kratos/pkg/net/http/blademaster/binding"
+	xtime "github.com/zzpu/kratos/pkg/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 	gock "gopkg.in/h2non/gock.v1"

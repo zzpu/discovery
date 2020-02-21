@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/model"
+	"github.com/zzpu/discovery/conf"
+	"github.com/zzpu/discovery/model"
 
-	"github.com/bilibili/kratos/pkg/ecode"
-	log "github.com/bilibili/kratos/pkg/log"
+	"github.com/zzpu/kratos/pkg/ecode"
+	log "github.com/zzpu/kratos/pkg/log"
 )
 
 const (

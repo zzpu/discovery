@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	log "github.com/bilibili/kratos/pkg/log"
+	log "github.com/zzpu/kratos/pkg/log"
 )
 
 const (

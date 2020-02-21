@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/discovery"
-	"github.com/bilibili/discovery/http"
+	"github.com/zzpu/discovery/conf"
+	"github.com/zzpu/discovery/discovery"
+	"github.com/zzpu/discovery/http"
 
-	"github.com/bilibili/kratos/pkg/conf/paladin"
-	xhttp "github.com/bilibili/kratos/pkg/net/http/blademaster"
-	xtime "github.com/bilibili/kratos/pkg/time"
+	"github.com/zzpu/kratos/pkg/conf/paladin"
+	xhttp "github.com/zzpu/kratos/pkg/net/http/blademaster"
+	xtime "github.com/zzpu/kratos/pkg/time"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

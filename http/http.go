@@ -3,11 +3,11 @@ package http
 import (
 	"errors"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/discovery"
+	"github.com/zzpu/discovery/conf"
+	"github.com/zzpu/discovery/discovery"
 
-	log "github.com/bilibili/kratos/pkg/log"
-	bm "github.com/bilibili/kratos/pkg/net/http/blademaster"
+	log "github.com/zzpu/kratos/pkg/log"
+	bm "github.com/zzpu/kratos/pkg/net/http/blademaster"
 )
 
 var (

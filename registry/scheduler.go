@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bilibili/discovery/model"
-	"github.com/bilibili/kratos/pkg/conf/paladin"
+	"github.com/zzpu/discovery/model"
+	"github.com/zzpu/kratos/pkg/conf/paladin"
 )
 
 // Scheduler info.

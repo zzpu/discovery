@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/discovery"
-	"github.com/bilibili/discovery/http"
-	log "github.com/bilibili/kratos/pkg/log"
+	"github.com/zzpu/discovery/conf"
+	"github.com/zzpu/discovery/discovery"
+	"github.com/zzpu/discovery/http"
+	log "github.com/zzpu/kratos/pkg/log"
 )
 
 func main() {

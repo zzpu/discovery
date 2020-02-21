@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/registry"
-	http "github.com/bilibili/kratos/pkg/net/http/blademaster"
+	"github.com/zzpu/discovery/conf"
+	"github.com/zzpu/discovery/registry"
+	http "github.com/zzpu/kratos/pkg/net/http/blademaster"
 )
 
 // Discovery discovery.

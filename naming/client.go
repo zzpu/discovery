@@ -13,10 +13,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	ecode "github.com/bilibili/kratos/pkg/ecode"
-	log "github.com/bilibili/kratos/pkg/log"
-	http "github.com/bilibili/kratos/pkg/net/http/blademaster"
-	xtime "github.com/bilibili/kratos/pkg/time"
+	ecode "github.com/zzpu/kratos/pkg/ecode"
+	log "github.com/zzpu/kratos/pkg/log"
+	http "github.com/zzpu/kratos/pkg/net/http/blademaster"
+	xtime "github.com/zzpu/kratos/pkg/time"
 )
 
 const (

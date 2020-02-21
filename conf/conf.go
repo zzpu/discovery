@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"github.com/BurntSushi/toml"
-	"github.com/bilibili/kratos/pkg/conf/paladin"
-	log "github.com/bilibili/kratos/pkg/log"
-	http "github.com/bilibili/kratos/pkg/net/http/blademaster"
+	"github.com/zzpu/kratos/pkg/conf/paladin"
+	log "github.com/zzpu/kratos/pkg/log"
+	http "github.com/zzpu/kratos/pkg/net/http/blademaster"
 )
 
 var (

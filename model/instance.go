@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bilibili/kratos/pkg/ecode"
-	log "github.com/bilibili/kratos/pkg/log"
+	"github.com/zzpu/kratos/pkg/ecode"
+	log "github.com/zzpu/kratos/pkg/log"
 )
 
 // InstanceStatus Status of instance

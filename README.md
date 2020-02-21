@@ -1,9 +1,9 @@
 # Discovery 
-[![Build Status](https://travis-ci.org/bilibili/discovery.svg?branch=master)](https://travis-ci.org/bilibili/discovery) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/bilibili/discovery)](https://goreportcard.com/report/github.com/bilibili/discovery)
-[![codecov](https://codecov.io/gh/Bilibili/discovery/branch/master/graph/badge.svg)](https://codecov.io/gh/Bilibili/discovery)
+[![Build Status](https://travis-ci.org/zzpu/discovery.svg?branch=master)](https://travis-ci.org/zzpu/discovery) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/zzpu/discovery)](https://goreportcard.com/report/github.com/zzpu/discovery)
+[![codecov](https://codecov.io/gh/zzpu/discovery/branch/master/graph/badge.svg)](https://codecov.io/gh/zzpu/discovery)
 
-Discovery is a based service that is production-ready and primarily used at [Bilibili](https://www.bilibili.com/) for locating services for the purpose of load balancing and failover of middle-tier servers.
+Discovery is a based service that is production-ready and primarily used at [zzpu](https://www.zzpu.com/) for locating services for the purpose of load balancing and failover of middle-tier servers.
 
 ## Quick Start
 
@@ -14,7 +14,7 @@ Discovery is a based service that is production-ready and primarily used at [Bil
 ### build
 ```shell
 cd $GOPATH/src
-git clone https://github.com/bilibili/discovery.git
+git clone https://github.com/zzpu/discovery.git
 cd discovery/cmd/discovery
 go build
 ```
@@ -43,7 +43,7 @@ You can view the comments in `cmd/discovery/discovery-example.toml` to understan
 
 * [Introduction](doc/intro.md)
 * [Architecture](doc/arch.md)
-* [Practice in Bilibili](doc/practice.md)
+* [Practice in zzpu](doc/practice.md)
 
 ## Feedback
 

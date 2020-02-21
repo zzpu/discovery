@@ -24,7 +24,7 @@ stderr_logfile = /log/discovery/stderr.log
 
 ## SLB
 
-sh1内SLB`sh1.discovery.bilibili.com`配置如下，sh2的`sh2.discovery.bilibili.com`类似：  
+sh1内SLB`sh1.discovery.zzpu.com`配置如下，sh2的`sh2.discovery.zzpu.com`类似：  
 ```nginx
 upstream discovery_upstream {
     server 172.1.1.1:7171;
@@ -33,7 +33,7 @@ upstream discovery_upstream {
 }
 server{
     listen 80;
-    server_name sh1.discovery.bilibili.com;
+    server_name sh1.discovery.zzpu.com;
     location /discovery {
         // 此处省略其余配置...
         proxy_pass http://discovery_upstream;
@@ -49,8 +49,8 @@ zone = "sh1"
 nodes = ["172.1.1.1:7171","172.1.1.2:7171","172.1.1.3:7171"]
 
 [zones]
-"sh2.discovery.bilibili.com" = "sh2"
-# 注意，这里对应sh2的节点配置是 `"sh1.discovery.bilibili.com" = "sh1"`
+"sh2.discovery.zzpu.com" = "sh2"
+# 注意，这里对应sh2的节点配置是 `"sh1.discovery.zzpu.com" = "sh1"`
 
 [httpServer]
 addr = "172.1.1.1:7171" # 注意IP配置为本机真实IP

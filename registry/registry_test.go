@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/model"
-	"github.com/bilibili/kratos/pkg/conf/paladin"
-	"github.com/bilibili/kratos/pkg/ecode"
+	"github.com/zzpu/discovery/conf"
+	"github.com/zzpu/discovery/model"
+	"github.com/zzpu/kratos/pkg/conf/paladin"
+	"github.com/zzpu/kratos/pkg/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

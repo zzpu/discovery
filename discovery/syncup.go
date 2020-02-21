@@ -6,12 +6,12 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/model"
-	"github.com/bilibili/discovery/registry"
-	"github.com/bilibili/kratos/pkg/ecode"
+	"github.com/zzpu/discovery/conf"
+	"github.com/zzpu/discovery/model"
+	"github.com/zzpu/discovery/registry"
+	"github.com/zzpu/kratos/pkg/ecode"
 
-	log "github.com/bilibili/kratos/pkg/log"
+	log "github.com/zzpu/kratos/pkg/log"
 )
 
 var (
